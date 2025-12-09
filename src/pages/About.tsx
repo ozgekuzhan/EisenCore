@@ -3,20 +3,20 @@ import { Link } from 'react-router-dom'
 const About = () => {
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 bg-gradient-to-br from-dark via-dark-lighter to-dark">
-        <div className="max-w-5xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-            Building Europe's Digital Sovereignty
-          </h1>
-          <p className="text-xl text-gray-300">
-            A strategic infrastructure project strengthening digital autonomy within the EU
-          </p>
+      <section className="relative bg-gradient-to-br from-dark via-dark-lighter to-dark py-20 md:py-32">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4 md:mb-6">
+              Building Europe's Digital Sovereignty
+            </h1>
+            <p className="text-lg md:text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto px-4">
+              A strategic infrastructure project strengthening digital autonomy within the EU
+            </p>
+          </div>
         </div>
       </section>
 
-      {/* Mission & Vision */}
-      <section className="py-32 px-4">
+      <section className="pt-12 pb-32 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div>
@@ -49,8 +49,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Values */}
-      <section className="py-32 px-4 bg-gray-50">
+      <section className="pt-12 pb-32 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <div className="inline-block px-4 py-1 bg-primary/5 text-primary text-sm font-semibold mb-6">
@@ -84,8 +83,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Company Info */}
-      <section className="py-32 px-4">
+      <section className="pt-12 pb-32 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -143,7 +141,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="py-20 px-4 bg-dark">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
